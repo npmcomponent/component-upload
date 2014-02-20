@@ -1,6 +1,5 @@
 {
-  "name": "upload-component",
-  "repo": "component/upload",
+  "name": "component-upload",
   "description": "file upload and progress api",
   "version": "0.1.1",
   "keywords": [
@@ -8,18 +7,7 @@
     "file"
   ],
   "dependencies": {
-    "emitter-component": "*"
+    "component-emitter": "git://github.com/npmcomponent/component-emitter.git"
   },
-  "devDependencies": {
-    "express": "3.0.0rc4"
-  },
-  "component": {
-    "scripts": {
-      "upload/index.js": "index.js"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/upload.git"
-  }
+  "license": "MIT"
 }
